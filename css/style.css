@@ -1,0 +1,52 @@
+/*HEADER*/
+
+header{
+		background-color: #120D16;
+}
+
+h1 {
+	color: #87E990;
+}
+
+.fa .fa-search {
+	color: white;
+}
+nav {
+	background-color: white;
+}
+
+
+ul, li {
+	display: inline;
+}
+
+/*ARTICLES*/
+
+#wrapper{
+	background-color: #FEFDF0;
+}
+
+#premier {
+	display: inline;
+}
+
+.square__green {
+	background-color: #87E990;
+	height: 4em;
+	width: 4em;
+}
+
+.flexContainer{
+   display:flex;
+   background-color: #120D16;
+}
+.flexItem{
+  padding:1em;
+  margin: 1em;
+  background-color: red;
+}
+
+
+.flexContainer2{
+   display:flex;
+}
