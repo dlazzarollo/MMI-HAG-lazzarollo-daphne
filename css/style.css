@@ -1,3 +1,7 @@
+p, h1, h2, li {
+	font-family: Open sans;
+}
+
 /*HEADER*/
 
 header{
@@ -8,8 +12,8 @@ h1 {
 	color: #87E990;
 }
 
-.fa .fa-search {
-	color: white;
+.fa-search {
+	color: #DCDCDC;
 }
 nav {
 	background-color: white;
@@ -18,23 +22,107 @@ nav {
 
 ul, li {
 	display: inline;
+	padding : 0 0.5em;
+}
+
+nav li{
+	display: inline-block;
+	border: 0.1em solid black;
+	border-top: none;
+	border-bottom: none;
+}
+
+#log {
+	color: #DCDCDC;
+}
+
+li.bouton_gauche {
+	float : left;
+}
+li.bouton_droite {
+	float : right;
 }
 
 /*ARTICLES*/
 
 #wrapper{
-	background-color: #FEFDF0;
+	background-color: #F5F5F5;
 }
+
+
+/*premier article*/
 
 #premier {
 	display: inline;
+}
+
+.flexContainerPrem{
+   display:flex;
+   flex-direction: column;
+}
+.flexImage {
+	padding:1em;
+  	margin: 1em;
+	flex-basis: 200px;
+	flex-grow:1;
+}
+
+.flexPrix {
+	padding:1em;
+ 	margin: 1em;
+	flex-basis: 50px;
+	flex-grow:1;
+}
+
+.flexNom {
+	padding:1em;
+ 	margin: 1em;
+	flex-basis: 10px;
+	flex-grow:1;
+}
+
+.flexAnnee {
+	padding:1em;
+ 	margin: 1em;
+	flex-basis: 100px;
+	flex-grow:1;
+}
+
+.flexText {
+	padding:1em;
+ 	margin: 1em;
+	flex-basis: 20px;
+	flex-grow:1;
 }
 
 .square__green {
 	background-color: #87E990;
 	height: 4em;
 	width: 4em;
+	color: white;
+	line-height: 3.8em;
+	text-align: center;
 }
+
+#barre {
+	height: 0.5em;
+	width: 50em;
+	background-color: black;
+}
+
+.colo {
+	height: 0.5em;
+	width: 30em;
+	background-color: #87E990;
+}
+
+.nb {
+	height: 0.5em;
+	width: 10em;
+	background-color: black;
+}
+
+/*deuxième article*/
 
 .flexContainer{
    display:flex;
@@ -46,6 +134,22 @@ ul, li {
   background-color: red;
 }
 
+.square__orange {
+	background-color: orange;
+	height: 4em;
+	width: 4em;
+	color: white;
+}
+
+.square__black {
+	background-color: #120D16;
+	height: 4em;
+	width: 4em;
+	color: white;
+	line-height: 3.8em;
+	text-align: center;
+}
+/*troisième article*/
 
 .flexContainer2{
    display:flex;

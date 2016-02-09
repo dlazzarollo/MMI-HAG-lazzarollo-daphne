@@ -14,43 +14,52 @@
 <header>
 	<ul>
 		<li><h1>Fooseshoes</h1></li>
-		<li><i class="fa fa-search"></i></li>
-		<li>Login or Register</li>
+		<li id="log" class="bouton_droite">Login or Register</li>
+		<li class="bouton_droite"><i class="fa fa-search"></i></li>
 	</ul>
 
 
 	<nav>
 		<ul>
-			<li>Home</li>
-			<li>Products</li>
-			<li>About</li>
-			<li>Pages</li>
-			<li>Blog</li>
-			<li>Contact</li>
-			<li><i class="fa fa-star-o"></i></li>
-			<li><i class="fa fa-shopping-cart"></i></li>
+			<li class="bouton_gauche">Home</li>
+			<li class="bouton_gauche">Products</li>
+			<li class="bouton_gauche">About</li>
+			<li class="bouton_gauche">Pages</li>
+			<li class="bouton_gauche">Blog</li>
+			<li class="bouton_gauche">Contact</li>
+			<li class="bouton_droite"><i class="fa fa-star-o"></i></li>
+			<li class="bouton_droite"><i class="fa fa-shopping-cart"></i></li>
 		</ul>
 	</nav>
 </header>
 
 <div id="wrapper">
 	<article id="premier">
-		<img src="img/header.png">
-		<div class="square__green"> <p>$145,99</p></div>
-		<h2>Pink shoes</h2>
-		<h2>2015 collection</h2>
-		<p>Nunc non fermentum nunc. Sed ut ante  eget leo tempor consequat</p>
-
-		<ul>
+		<div class="flexContainerPrem">
+					<div class="flexImage"><img src="img/header.jpg"></div>
+					<div class="flexPrix"><div class="square__green"> <p>$145,99</p></div></div>
+					<div class="flexNom"><h2>Pink shoes</h2></div>
+					<div class="flexAnnee"><h2>2015 collection</h2></div>
+					<div class="flexText"><p>Nunc non fermentum nunc. Sed ut ante  eget leo tempor consequat</p></div>
+					<div class="flexItemPrem"><ul>
 			<li><i class="fa fa-eye"></i></li>
 			<li><i class="fa fa-star-o"></i></li>
 			<li><i class="fa fa-share-square-o"></i></li>
 			<li><i class="fa fa-shopping-cart"></i></li>
-		</ul>
+		</ul></div>
+				</div>
+
+		
 	</article>
 
 	<article>
-		<div id="barre"></div>
+		<div id="barre">
+			<span class="colo"> &nbsp;</span>
+			<span class="nb">&nbsp;</span>
+			<span class="nb">&nbsp;</span>
+			<span class="nb">&nbsp;</span>
+			<span class="nb">&nbsp;</span>
+		</div>
 
 		<div class="flexContainer">
 			<div class="flexItem">image 1</div>
@@ -60,16 +69,18 @@
 	</article>
 
 <article>
+	<h2>New arrivals on Fooseshoes</h2>
+	<p>Show all</p>
 		<div class="flexContainer2">
-			<div class="flexItem">image 1</div>
-			<div class="flexItem">image 2</div>
-			<div class="flexItem">image 3</div>
-			<div class="flexItem">image 4</div>
-			<div class="flexItem">image 5</div>
-			<div class="flexItem">image 6</div>
-			<div class="flexItem">texte 1</div>
-			<div class="flexItem">texte 2</div>
-			<div class="flexItem">texte 3</div>
+			<div class="flexItem">image 1 <div class="square__green"> <p>$145,99</p></div></div>
+			<div class="flexItem">image 2 <div class="square__black"> <p>On sale!</p></div><div class="square__green"> <p>$145,99</p></div></div>
+			<div class="flexItem">image 3 <div class="square__green"> <p>$145,99</p></div></div>
+			<div class="flexItem">image 4 <div class="square__green"> <p>$145,99</p></div></div>
+			<div class="flexItem">image 5 <div class="square__green"> <p>$145,99</p></div></div>
+			<div class="flexItem">image 6 <div class="square__green"> <p>$145,99</p></div></div>
+			<div class="flexItem">texte 1 <div class="square__green"> <p>$145,99</p></div></div>
+			<div class="flexItem">texte 2 <div class="square__green"> <p>$145,99</p></div></div>
+			<div class="flexItem">texte 3 <div class="square__green"> <p>$145,99</p><div class="square__orange"> <p>out of stock</p></div></div>
 		</div>
 </article>
 
